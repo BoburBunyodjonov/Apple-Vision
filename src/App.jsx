@@ -325,7 +325,7 @@ const App = () => {
         https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/360/large/0198.jpg
         https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/360/large/0199.jpg
        `;
-        return data.trim().split("\n");
+       return data.split("\n")[index];
       }
     
       const loadImages = () => {
